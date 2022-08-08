@@ -1,0 +1,7 @@
+- Extract tarball in /usr/share/netcadops
+- Move the conf files to the httpd config.d and modules.conf.d
+- Override the httpd service to provide oracle env vars
+- Replace the keyfile with one that matches your system
+- Update tnsnames.ora if needed
+- set ownership to apache:apache
+- create /var/log/mod_owa folder, set its permissions to apache:apache 

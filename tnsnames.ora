@@ -1,0 +1,10 @@
+# Ansible managed
+
+dmspdb =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = dms-build-db8.corp)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = dmspdb)
+    )
+  )
